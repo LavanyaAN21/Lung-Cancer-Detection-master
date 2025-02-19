@@ -1,0 +1,37 @@
+# Configuration
+.env*
+
+# Symlinks
+nbs/lung_cancer_detection
+
+# Data
+data/processed
+data/compressed
+data/raw
+data/cache
+data/test/cache
+*.pickle
+
+# Models
+models/classification
+
+# Python
+__pycache__
+.pytest_cache
+.ipynb_checkpoints
+venv
+
+# Weights & Biases
+wandb
+
+# PyTorch Lightning
+lightning_logs
+
+# VS Code
+*.code-workspace
+
+# Vim
+*.swp
+
+# Misc
+.DS_Store
